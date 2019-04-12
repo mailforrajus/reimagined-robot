@@ -14,6 +14,8 @@ public class UserController {
 	@RequestMapping(value = "/displayForm.htm", method = RequestMethod.GET)
 	public String displayForm(Model model) {
 		System.out.println("this is displayForm() method");
+		System.out.println("this is displayForm() method");
+		System.out.println("this is displayForm() method");
 		model.addAttribute("user", new User());
 		return "userForm";
 	}
